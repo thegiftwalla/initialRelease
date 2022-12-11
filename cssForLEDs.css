@@ -1,0 +1,33 @@
+.description {
+    border-radius: 5px;
+    background: #2f453c;
+    box-shadow: 10px 10px 41px #31946e,
+        -10px -10px 41px #55ffc0;
+    color: white;
+}
+
+.card {
+    color: black;
+    border-radius: 50px;
+    background: linear-gradient(315deg, #c6e0e8,
+            #5b7c87);
+    box-shadow: -7px -7px 7px #000,
+        7px 7px 7px #000;
+}
+
+.card:hover {
+    color: black;
+    border-radius: 50px;
+    transition: 1.5s ease-in-out;
+    background: linear-gradient(315deg, #43b07e, #4fd296);
+    /* box-shadow: -7px -7px 7px #40ab7a,
+        7px 7px 7px #54dd9e; */
+
+    box-shadow: -7px -7px 7px #47a0be,
+        7px 7px 7px #5dd0f6;
+}
+
+.cardImage {
+    border-radius: 10px;
+    margin-top: 4px;
+}

@@ -1,0 +1,45 @@
+/* .card::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 1px;
+    margin-top: 10px;
+} */
+
+.cardImage {
+    height: 50%;
+    width: 50%;
+}
+
+.card-body {
+    margin: auto;
+}
+
+.carousel {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImage {
+    z-index: -1;
+    height: 75vh;
+    width: 80vw;
+}
+
+@media screen and (min-width: 720px) {
+    .carouselImage {
+        height: 50vh;
+        width: 80vw;
+    }
+}
+
+
+.footer {
+    background-color: grey;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
